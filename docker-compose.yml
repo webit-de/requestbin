@@ -7,6 +7,8 @@ app:
         - redis
     ports:
         - "8000:8000"
+    # restart on reboot
+    restart: always
 
 redis:
     image: redis
