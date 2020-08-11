@@ -6,7 +6,8 @@ app:
     links:
         - redis
     ports:
-        - "8000:8000"
+        # Change default port to localhost:8084
+        - "8084:8000"
     # restart on reboot
     restart: always
 
